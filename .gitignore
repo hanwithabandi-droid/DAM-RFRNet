@@ -1,0 +1,37 @@
+# ==============================================================================
+# Git Ignore Configuration for DAM-RFRNet
+# ==============================================================================
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Raw and Synthetic Datasets (Host externally or generate via dataset scripts)
+data/
+VOC/
+coco/
+*.tar.gz
+*.zip
+
+# OS Artifacts & Editor Configs
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+.agent/
+*.swp
+*~
+
+# Intermediate large generated videos (optional)
+outputs/*.mp4
