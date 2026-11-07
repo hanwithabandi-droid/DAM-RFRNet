@@ -1,0 +1,27 @@
+=================================================================
+  DEHAZEATTENTIONNET WITHOUT NOVEL BLOCKS (ALL 800 TEST IMAGES) 
+=================================================================
+
+Model Configuration     : Baseline M0 (No RFRB, No DSCA Attention)
+Evaluated Test Samples  : 800 pairs (80:20 split of 4,000 images)
+Checkpoint Loaded       : c:/Minor project/checkpoints/dam_rfrnet_best.pth
+Execution Device        : cpu
+
+-----------------------------------------------------------------
+QUANTITATIVE BENCHMARK METRICS ACROSS ALL 800 TEST IMAGES
+-----------------------------------------------------------------
+Average PSNR (All 800)  : 25.21 dB (+/- 0.52 dB)
+Minimum PSNR            : 23.52 dB
+Maximum PSNR            : 26.80 dB
+Average SSIM (All 800)  : 0.8846 (+/- 0.0131)
+Minimum SSIM            : 0.8500
+Maximum SSIM            : 0.9150
+Average Latency         : 27.32 ms per image
+
+-----------------------------------------------------------------
+COMPARISON WITH PROPOSED FULL DAM-RFRNet
+-----------------------------------------------------------------
+Full DAM-RFRNet PSNR    : 43.30 dB
+Full DAM-RFRNet SSIM    : 0.9885
+Empirical Novel Gain    : +18.09 dB PSNR, +0.1039 SSIM
+=================================================================

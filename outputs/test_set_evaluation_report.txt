@@ -1,0 +1,22 @@
+=================================================================
+     DAM-RFRNet MINOR PROJECT: TEST SET EVALUATION REPORT        
+=================================================================
+
+Evaluated Test Samples   : 800 unseen image pairs (20% split)
+Model Architecture       : DAM-RFRNet (Dual Attention + RFRB)
+Checkpoint Loaded        : c:/Minor project/checkpoints/dam_rfrnet_best.pth
+Execution Device         : cpu
+
+-----------------------------------------------------------------
+AGGREGATED PERFORMANCE METRICS
+-----------------------------------------------------------------
+Average PSNR (dB)        : 20.46 dB (+/- 2.34 dB)
+Maximum PSNR             : 27.11 dB
+Minimum PSNR             : 13.32 dB
+Average SSIM             : 0.8462 (+/- 0.0575)
+Maximum SSIM             : 0.9879
+Minimum SSIM             : 0.6148
+Mean Latency (ms/image)  : 31.76 ms
+Throughput (FPS)         : 31.5 FPS
+
+=================================================================

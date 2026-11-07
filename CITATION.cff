@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this benchmark or codebase in your research, please cite it as below."
+authors:
+  - name: "Dr. L. V. Rajani Kumari"
+  - name: "Hanwitha Bandi"
+  - name: "S. Rishi Nandhan"
+  - name: "P. Angel"
+title: "Dual-Attention and Multi-Scale Residual Feature Refinement Network (DAM-RFRNet) for High-Fidelity Single Image Dehazing and Defogging"
+version: 1.0.0
+date-released: 2026-11-06
+url: "https://github.com/hanwithabandi-droid/DAM-RFRNet"
+keywords:
+  - "image dehazing"
+  - "deep learning"
+  - "dual attention"
+  - "defogging"
+  - "computer vision"
